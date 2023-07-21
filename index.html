@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập buổi 6</title>
+</head>
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            text-align:center;
+            padding:0;
+            margin:0;
+        }
+        /* Header */
+        .header{
+            padding:20px;
+            text-transform: uppercase;
+            background-color:#92DFC8;
+        }
+
+        /* End Header */
+        
+        /* main */
+        .main .clear-fix{
+            clear:both;
+        }
+
+        
+
+        .main .section-one{
+            text-transform: uppercase;
+        }
+
+        .main .section-one .content{
+            float: left;
+            width: 70%;
+            height: 500px;
+            background-color:#CAEFF2;
+            padding:20px;
+        }
+
+        
+        .main .section-one .aside{
+            float: right;
+            width: 30%;
+            height: 500px;
+            background-color:#F2D8CA;
+            padding:20px;
+        }
+
+
+        .main .section-two{
+            margin-top:20px;
+        }
+
+        .main .section-two .box{
+            background-color:#F2F1CA;
+            padding:20px;
+            height:150px;
+            margin-right:20px;
+            width: calc(25% - 15px);
+            float:left;
+        }
+
+        .main .section-two .box:nth-child(4){
+            margin-right: 0;
+        }
+
+        /* end main */
+
+        /* footer */
+        .footer{
+            margin-top: 20px;
+            text-transform: uppercase;
+            padding:20px;
+            background-color:#D9B9DD;
+        }
+        /* end footer */
+
+    </style>
+
+
+    <header class="header">header</header>
+    <main class="main">
+        <section class="section-one">
+            <div class="content">content</div>
+            <div class="aside">aside</div>
+            <div class="clear-fix"></div>
+        </section>
+        <section class="section-two">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+            <div class="box">Box 3</div>
+            <div class="box">Box 4</div>
+            <div class="clear-fix"></div>
+        </section>
+    </main>
+
+    <footer class="footer">footer</footer>
+</body>
+</html>
